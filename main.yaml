@@ -1,0 +1,4 @@
+- name: "install {{cpmponent}}"
+  hosts: "{{component}}"
+  roles:
+  - "{{component}}"
