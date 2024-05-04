@@ -14,7 +14,7 @@ tasks:
       name: common
       tasks_from: mongodb-setup
 
-    - name: app setup
+  - name: app setup
     ansible.builtin.import_role:
       name: common
       tasks_from: systemd
